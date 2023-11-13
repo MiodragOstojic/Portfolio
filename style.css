@@ -1,0 +1,25 @@
+/* NavButton */
+.navBtn{
+    background-color: rgb(48, 196, 159) ;
+} 
+.navItem1{
+    margin-right: 50px;
+}
+.navItem2{
+    margin-left: 50px;
+}
+/* Section 1 */
+.sec1{
+    min-height: 800px;
+    background-color: rgb(48, 196, 159);
+    padding-top: 150px;
+    position: sticky;
+    margin-top: 50px;
+}
+.avatar{
+    max-height: 300px;   
+}
+.txtColor{
+color: white;
+font-size: larger;
+}
