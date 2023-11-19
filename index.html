@@ -6,30 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Predavanje 6-Zadatak</title>
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <!-- ****NavBar**** -->
 
 <nav class="navbar navbar-expand-lg navbar fixed-top navbar-dark bg-dark ">
-    <button class="navbar-toggler navBtn " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon   "></span>
-        Menu </button>
-    <a class="navbar-brand navItem2" href="#">Mijodrag Ostojić</a>
+    <div class="container">
+        <button class="navbar-toggler navBtn " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon   "></span>
+            Menu </button>
+        <a class="navbar-brand navItem2" href="#">Mijodrag Ostojić</a>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav ms-auto mt-2 mt-lg-8 navItem1">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Portfolio <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Contact</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-8 navItem1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Portfolio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -37,22 +41,54 @@
 <div class="container-fluid sec1">
     <div class="text-center">
         <img src="imgs/avataaars.svg" class="rounded mx-auto d-block avatar " alt="...">
-        <H1 class="text-white">MIJODRAG OSTOJIĆ</H1>
-        <i class="fa fa-star fa-6"></i>
+        <H1 class="text-white">MIJODRAG OSTOJIĆ</H1><br>
+        <div class="line1"></div>
+        <i class="fa fa-star   star1"></i>
+        <div class="line1"></div>
         <p class="text-center txtColor">Frontend Developer - Web Desinger - Scrum Master</p>
     </div>
 </div>
 
 <!-- Portfolio Section -->
-<h1 class="text-md-center text-black-50 ">PORTFOLIO</h1>
+<div class="text-center mb-lg-5">
+    <h1 class="text-md-center text-black-50 ">PORTFOLIO</h1>
+    <div class="line2"></div>
+    <i class="fa fa-star star2 " aria-hidden="true"></i>
+    <div class="line2"></div>
+</div>
 <div class="container">
-    <div class="row row-cols-3 ">
-        <div class="col"><img src="imgs/image1.jpg" class="img-fluid"> </div>
-        <div class="col"><img src="imgs/image2.jpg" class="img-fluid"></div>
-        <div class="col"><img src="imgs/image3.jpg" class="img-fluid"></div>
-        <div class="col"><img src="imgs/image4.jpg" class="img-fluid"></div>
-        <div class="col"><img src="imgs/image5.jpg" class="img-fluid"></div>
-        <div class="col"><img src="imgs/image6.jpg" class="img-fluid"></div>
+    <div class="row  row-cols-3 m-lg-1 itemsSec2 ">
+        <div class="col-lg-4 position-relative">
+            <div class="pseudo">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <a href=""  class="klasa"><img src="imgs/image1.jpg" class="img-fluid"> </a>
+        </div>
+        <div class="col-lg-4 position-relative">
+            <div class="pseudo">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div><img src="imgs/image2.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-4 position-relative">
+            <div class="pseudo">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div><img src="imgs/image3.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-4 position-relative">
+            <div class="pseudo">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div><img src="imgs/image4.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-4 position-relative">
+            <div class="pseudo">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div><img src="imgs/image5.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-4 position-relative">
+            <div class="pseudo">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div><img src="imgs/image6.jpg" class="img-fluid">
+        </div>
     </div>
     <!-- Modal -->
     <div class="modal" id="myModal">
@@ -76,9 +112,84 @@
     </div>
 </div>
 <!-- ***Section 2*** -->
-<div class="container-fluid sec1">
+<div class="container-fluid secAbout">
+    <div class="text-center">
+        <h1 class="text-white">ABOUT</h1>
+        <div class="line1"></div>
+        <i class="fa fa-star   star1"></i>
+        <div class="line1"></div>
+    </div>
 
+    <div class="row about-container justify-content-center mb-5">
+        <div class="col-lg-3 text-white">
+            <p>Front-end web development, also known as client-side development is the practice of producing HTML,
+                CSS and JavaScript for a website or Web Application so that a user can see and interact with them
+                directly. The challenge associated with front end development is that the tools and techniques used
+                to create the front end of a website change constantly and so the developer needs to constantly be
+                aware of how the field is developing.</p>
+        </div>
+        <div class="col-lg-3 text-white ">
+            <p>The objective of designing a site is to ensure that when the users open up the site they see the
+                information in a format that is easy to read and relevant. This is further complicated by the fact
+                that users now use a large variety of devices with varying screen sizes and resolutions thus forcing
+                the designer to take into consideration these aspects when designing the site. They need to ensure
+                that their site comes up correctly in different browsers...</p>
+        </div>
+    </div>
 </div>
+<!-- Contact -->
+<div class="text-center mb-lg-5 mt-5">
+    <h1 class="text-md-center text-black-50 ">CONTACT ME</h1>
+    <div class="line2"></div>
+    <i class="fa fa-star star2 " aria-hidden="true"></i>
+    <div class="line2"></div>
+</div>
+<div class="container mt-5 mb-5">
+
+    <form>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floating-input" placeholder="FullName">
+            <label for="floating-input"> Full Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floating-input" placeholder="eMail">
+            <label for="floating-input"> eMail</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="floating-tel" placeholder="PhoneNumber">
+            <label for="floating-input"> Phone Number</label>
+        </div>
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px;"></textarea>
+            <label for="floatingTextarea2">Leave a Message </label>
+        </div>
+        <button type="submit"> Send</button>
+    </form>
+</div>
+<div class="container-fluid bg-dark pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4  ">
+                <h1 class="text-white">Location</h1>
+                <p class="text-white">SmartinIt Novi Sad</p>
+                <p class="text-white">Serbia</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="fw-bold text-white">AROUND THE WEB</p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-futbol-o" aria-hidden="true"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="card-footer bg-dark display-7">
+    <p style="color: white; text-align: center;">Copyright © Mijodrag Ostojić 2023</p>
+</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

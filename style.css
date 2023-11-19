@@ -2,12 +2,12 @@
 .navBtn{
     background-color: rgb(48, 196, 159) ;
 } 
-.navItem1{
+/* .navItem1{
     margin-right: 50px;
 }
 .navItem2{
     margin-left: 50px;
-}
+} */
 /* Section 1 */
 .sec1{
     min-height: 800px;
@@ -19,7 +19,92 @@
 .avatar{
     max-height: 300px;   
 }
+.star1{
+    color:white;
+    font-size: xx-large;
+    
+ }
 .txtColor{
 color: white;
-font-size: larger;
+font-size: xx-large;
+}
+.line1 {
+    width: 78px;
+    height: 0;
+    border: 2px solid white;
+    margin: 8px;
+    display:inline-block;
+}
+/* Section 2 */
+.star2{
+   color:black;
+   font-size: xx-large;
+}
+.line2{
+    width: 78px;
+    height: 0;
+    border: 2px solid black;
+    margin: 8px;
+    display:inline-block
+}
+.itemsSec2{
+    row-gap: 40px;
+
+}
+.pseudo{
+   display: none;
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(48 196 159 / 48%);
+}
+ .pseudo i{
+   color: white;
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.klasa:hover + .pseudo{
+    display: block;
+}
+
+/* ****About***** */
+.itemAbout{
+    gap: 30px;
+}
+.secAbout{
+    min-height: 500px;
+    background-color: rgb(48, 196, 159);
+    padding-top: 150px;
+    margin-top: 50px;
+}
+/* ****Contact**** */
+button{
+    background-color:  rgb(48, 196, 159);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 30px;
+    
+}
+button:hover{
+    background-color:  rgb(12, 116, 90) ;
+    width: 65px;
+    height: 40px;
+}
+/* footer */
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-futbol-o:hover{
+    background-color: white;
+    color: #1b252f;
+}
+footer{
+    background-color: #1b252f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;  
 }
