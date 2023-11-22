@@ -35,6 +35,70 @@ font-size: xx-large;
     margin: 8px;
     display:inline-block;
 }
+.portfolio-container{
+    gap: 30px 0
+}
+.portfolio-item-container{
+    position:relative;
+    overflow: hidden;
+}
+.portfolio-item{
+    width: 300px;
+}
+.green{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 188, 155, 0.7);
+    /* background-color: rgba(27, 188, 155, 0,7); */
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+.portfolio-item-container:hover .green{
+    opacity: 1;
+}
+.icon{
+    color: white;
+    font-size: 5em;
+}
+.modal-container{
+    text-align: center;
+    display: inline-block;
+}
+.modal-container h5{
+    color: #707180;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.modal-item-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.modal-item-1 img{
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.modal-item-1 p{
+    width: 350px;
+    margin: 0 auto;
+}
+.modal-item2 button{
+    display: inline-block;
+    background-color: #1bbc9b;
+    margin-bottom: 50px;
+}
+.close{
+    display: flex;
+    justify-content: end;
+}
 /* Section 2 */
 .star2{
    color:black;
