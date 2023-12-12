@@ -1,0 +1,36 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Marko",
+      "surname": "Markovic",
+      "email": "mm@gmail.com",
+      "JMBG": "1708963514752",
+      "comment": "neki komentar"
+    },
+    {
+      "name": "Marija",
+      "surname": "Karan",
+      "email": "mk@gmail.com",
+      "JMBG": "1908963514752",
+      "comment": "test edit",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Petar",
+      "surname": "Petrovic",
+      "email": "pp@gmail.com",
+      "JMBG": "1708985514752",
+      "comment": "neki komentar3"
+    },
+    {
+      "name": "Zorana",
+      "surname": " Zaric ",
+      "email": "zorana.zaric@panonit.com",
+      "JMBG": "1234567890123",
+      "comment": "sdfsdfsdf",
+      "id": 4
+    }
+  ]
+}

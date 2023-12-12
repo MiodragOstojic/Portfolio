@@ -1,0 +1,42 @@
+{
+  "zaposleni": [
+    {
+      "id": 1,
+      "ime": "Petar",
+      "prezime": "Petrovic",
+      "email": "pp@gmail.com"
+    },
+    {
+      "id": 2,
+      "ime": "Marko",
+      "prezime": "Markovic",
+      "email": "mm@gmail.com"
+    },
+    {
+      "id": 3,
+      "ime": "Tijana",
+      "prezime": "Jankovic",
+      "email": "tj@gmail.com"
+    },
+    {
+      "ime": "Mirko",
+      "prezime": "Panic",
+      "email": "mp@gmail.com",
+      "id": 4
+    },
+    {
+      "ime": "Mirko",
+      "prezime": "Panic",
+      "email": "mp@gmail.com",
+      "id": 5
+    }
+  ],
+  "nezaposleni": [
+    {
+      "id": 4,
+      "ime": "Milan",
+      "prezime": "Milanovic",
+      "email": "mmm@gmail.com"
+    }
+  ]
+}

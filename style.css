@@ -172,3 +172,73 @@ footer{
     text-align: center;
     font-size: 12px;  
 }
+.info-text{
+    margin-bottom: 0;
+}
+.info-icons{
+    margin-bottom: 20px;
+}
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-futbol-o{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin: 4px;
+    margin-bottom: 10px;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-futbol-o:hover{
+    background-color: white;
+    color: #1b252f;
+}
+footer{
+    background-color: #1b252f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;  
+}
+footer p{
+    margin-bottom: 0;
+}
+.info-text{
+    margin-bottom: 0;
+}
+.header-portfolio{
+    background-color: #1bbc9b;
+    padding-top: 130px;
+}
+
+
+/* COURSES */
+.backgroundImages{
+    background-image: url(Resursi/Resursi/courses-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    
+    
+    padding-top: 150px;
+    position: sticky;
+    margin-top: 50px;
+}
+.sec1{
+    background-color:lightblue;
+    padding: 20px;
+}
+.tm1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tabelaTxt{
+    text-align: start;
+}
+button{
+    width:170px;
+    text-align: center;
+    margin: 2px solid green !important;
+   
+}
+button:hover{
+    width: 170px;
+    transition: 1s;
+
+}

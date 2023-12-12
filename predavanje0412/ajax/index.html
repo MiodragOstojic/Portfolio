@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AJAX</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+    <!-- <button onclick="loadData()">Ucitaj podatke</button>
+        <button onclick="addData()">Dodaj podatak</button>
+        <p id="file_p"></p>
+        <div id="test_file"></div> -->
+    <form id="forma1" method="get" action="">
+        <fieldset>
+            <legend>Unesite podatke</legend>
+            <p>
+                <label for="TextIme">Ime (neophodno, najmanje 5 karaktera)</label>
+                <input id="TextIme" name="ime" type="text"/>
+            </p>
+            <hr>
+            <p>
+                <label for="TextEmail">E-Mail (neophodno)</label>
+                <input id="TextEmail" type="email" name="email" />
+            </p>
+            <hr>
+            <p>
+                <label for="TextUrl">URL (opciono)</label>
+                <input id="TextUrl" type="url" name="url" />
+            </p>
+            <hr>
+            <p>
+                <label for="TextArea1">Unesite komentar</label>
+                <textarea id="TextArea1" name="komentar"></textarea>
+            </p>
+            <hr>
+            <p>
+                <button id="Submit1" type="submit" class="btn btn-secondary">Posalji</button>
+            </p>
+        </fieldset>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="myScript.js"></script>
+</body>
+
+</html>

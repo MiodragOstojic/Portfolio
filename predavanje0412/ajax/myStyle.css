@@ -1,0 +1,16 @@
+#forma1 {
+    background-color: rgb(216, 214, 214);
+    width: 500px;
+    padding: 20px
+}
+
+#forma1 label {
+    width: 250px;
+}
+
+label.error{
+    color: red;
+}
+input.error{
+    border-color: red;
+}
